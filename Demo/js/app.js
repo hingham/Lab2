@@ -1,65 +1,65 @@
 'use strict';
 
 
-var  question = prompt('do you think i am funny?');
-var response = (question );
-if(response.toUpperCase == 'Y' || 'YES') {
-       console.log(question );
-      alert('Hahahahahahahah!');
-}
-
-else if(response.toUpperCase == 'N' || 'NO') {
-      console.log(question );
-      alert('oh no!');
-}
-        
-
-var question = prompt('do you think i am funny looking?');
+var  question = prompt('Is my favorite game fortnite');
 var response = (question);
 if(response.toUpperCase == 'Y' || 'YES') {
-      console.log(question);
-      alert('Thanks you are the best!');
-}
-
- else if(response.toUpperCase == 'N' || 'NO') {
-      console.log(question);
-      alert(question  + 'But I am!');
-}
-        
-var question = prompt('would you be my friend?');
-var response = (question);
-if(response.toUpperCase == 'Y' || 'YES') {
-      console.log(question);
-      alert('We will rule the world together!');
+       console.log(question);
+      alert('Hell no!');
 }
 
 else if(response.toUpperCase == 'N' || 'NO') {
       console.log(question);
-      alert('Man!');
+      alert('Yes! PUBG all the way!');
 }
         
-        
-var question = prompt('will you hang out with me?');
+
+var question = prompt('Do I love the mountians?');
 var response = (question);
 if(response.toUpperCase == 'Y' || 'YES') {
       console.log(question);
-      alert('lets go on an adventure!');
+      alert('Yes!');
 }
 
  else if(response.toUpperCase == 'N' || 'NO') {
       console.log(question);
-      alert('OK!');
+      alert(question  + 'Of course they are what is wrong with you?!');
+}
+        
+var question = prompt('Do i drink milk?');
+var response = (question);
+if(response.toUpperCase == 'Y' || 'YES') {
+      console.log(question);
+      alert('No!');
+}
+
+else if(response.toUpperCase == 'N' || 'NO') {
+      console.log(question);
+      alert('Of course I do not I am not a sicko!');
+}
+        
+        
+var question = prompt('Do I like board games');
+var response = (question);
+if(response.toUpperCase == 'Y' || 'YES') {
+      console.log(question);
+      alert('Yes, why would\'t I?!');
+}
+
+ else if(response.toUpperCase == 'N' || 'NO') {
+      console.log(question);
+      alert('Well you are wrong');
 }   
     
-var question = prompt('tell me, do you love my site?');
+var question = prompt('do i wear clothers?!');
 var response = (question);
 if(response.toUpperCase == 'Y' || 'YES') {
       console.log(question);
-      alert('Good, because it is amazing!');
+      alert('Umm, duh!');
 }
 
 else if(response.toUpperCase == 'N' || 'NO') {
       console.log(question);
-      alert('O!h');
+      alert('Oh my!');
 }   
    
