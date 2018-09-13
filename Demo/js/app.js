@@ -1,41 +1,39 @@
 'use strict';
 function aboutMe(){
-
-
       var  question = prompt('Is my favorite game fortnite');
-      if(question.toUpperCase() == 'Y' || 'YES') 
+      if(question.toUpperCase() === 'Y' || question.toUpperCase()==='YES') 
       {
-            alert('Hell no!');
-            console.log(question);
+            alert('Hell no! You are wrong.');
+            console.log('User answer to questions' + question + 'wrong');
       }
 
-      else if(question.toUpperCase() == 'N' || 'NO')
+      else if(question.toUpperCase() === 'N' || question.toUpperCase()==='NO')
       {
             alert('Yes! PUBG all the way!');
-            console.log(question);
+            console.log('User answer to question' + question + 'correct');
       }
 
 
       var question1 = prompt('Do I love the mountians?');
-      if(question1.toUpperCase == 'Y' || 'YES') {
+      if(question1.toUpperCase() === 'Y' || question1.toUpperCase()==='YES') {
             alert('Yes!');
             console.log(question1);
       }
 
-      else if(question1.toUpperCase == 'N' || 'NO') 
+      else if(question1.toUpperCase() === 'N' || question1.toUpperCase() === 'NO') 
       {
             alert(question1  + 'Of course they are what is wrong with you?!');
             console.log(question1);
       }
 
       var question2 = prompt('Do i drink milk?');
-      if(question2.toUpperCase == 'Y' || 'YES') 
+      if(question2.toUpperCase() === 'Y' || question2.toUpperCase()==='YES') 
       {
             alert('No!');
             console.log(question2);
       }
 
-      else if(question2.toUpperCase == 'N' || 'NO') 
+      else if(question2.toUpperCase() === 'N' || question2.toUpperCase() === 'NO') 
       {
             console.log(question2);
             alert('Of course I do not I am not a sicko!');
@@ -43,13 +41,13 @@ function aboutMe(){
 
 
       var question3 = prompt('Do I like board games');
-      if(question3.toUpperCase == 'Y' || 'YES') 
+      if(question3.toUpperCase() === 'Y' || question3.toUpperCase()==='YES') 
       {
             alert('Yes, why would\'t I?!');
             console.log(question3);
       }
 
-      else if(question3.toUpperCase == 'N' || 'NO') 
+      else if(question3.toUpperCase() === 'N' || question3.toUpperCase()==='NO') 
       {
             alert('Well you are wrong');
             console.log(question3);
@@ -57,13 +55,13 @@ function aboutMe(){
 
 
       var question4 = prompt('do i like anime');
-      if(question4.toUpperCase == 'Y' || 'YES') 
+      if(question4.toUpperCase()=== 'Y' || question4.toUpperCase()==='YES') 
       {
             alert('Umm, duh!');
             console.log(question4);
       }
 
-      else if(question4.toUpperCase == 'N' || 'NO') 
+      else if(question4.toUpperCase() === 'N' || question4.toUpperCase() ==='NO') 
       {
             alert('Oh my!');
             console.log(question4);
@@ -116,5 +114,10 @@ function myGames(){
       }
       }
 }
+
+aboutMe();
+guessNumber();
+myGames();
+
 alert('all the answers were pubg, halo, gangbeasts, and cod');
 console.log(guess)
